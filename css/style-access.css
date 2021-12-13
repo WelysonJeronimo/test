@@ -1,0 +1,221 @@
+/* geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'OpenSans';
+    border: none;
+}
+a {
+    font-size: .8rem;
+}
+a:hover {
+    color: #085588;
+}
+textarea:focus, input:focus {
+    outline: none;
+}
+
+/* colorizando o plano de fundo */
+body {
+    background-color: #e8f7f5;
+}
+
+/* Estilização do cabeçalho */
+header .header-green{
+    width: 100%;
+    height: 20vh;
+    background-color: #1BA39C;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+header .text-header {
+    position: absolute;
+    width: 420px;
+    margin-left: 10rem;
+    height: 90px;
+}
+header h1 {
+    font-size: 75px;
+    color: #FFF;
+    margin: 0;
+}
+
+/* conteúdo da página */
+div .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+div .content {
+    width: 45%;
+    display: block;
+    position: relative;
+    margin-top: 10vh;
+}
+
+/* estilização do Texto apresentativo e LOGO */
+div .content-left figure>img {
+    box-shadow: 0px 0px 1px 1px #bcbdbe;
+    border-radius: 10px;
+}
+div .content-left {
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+#text h2 {
+    font-size: 6rem;
+}
+#text p {
+    font-size: 2rem;
+}
+
+/* Estilização do campo Login-Cadastro */
+div .content-right {
+    margin-top: 10vh;
+    border: 1px solid #1BA39C;
+    border-radius: 35px;
+    width: 620px;
+    position: relative;
+    display: flex;
+    height: 450px;
+    background-color: #DFF9FB;
+}
+div .content-right h4 {
+    font-size: 30px;
+    text-align: center;
+}
+div .content-right form{
+    width: 95%;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 35px;
+}
+
+/* Estilização do campo Login */
+div .login-content {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-right: 1px solid #1BA39C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#forgot-pass {
+    text-align: right;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+}
+#forgot-pass:hover {
+    color: #2f4f4f;
+}
+#submitLogin {
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: 94px;
+    width: auto;
+    background-color: #1BA39C;
+    color: #FFF;
+}
+#submitLogin:hover {
+    background-color: #2f4f4f;
+    transition: .5s;
+}
+div .login-content label {
+    text-align: left;
+    display: block; 
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+div .login-content input {
+    border-bottom: 2px solid #1BA39C;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+div .login-content .notification p {
+    font-size: 1.2rem;
+    color: #FF0000;
+    margin: 0;
+    position: absolute;
+    top: 170px;
+}
+input:focus {
+    border-bottom: 2px solid #000000 !important;
+}
+
+/* Estilização do Campo de registro */
+div .register-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div .register-content label{
+    text-align: left;
+    display: block; 
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+div .register-content input {
+    border-bottom: 2px solid #1BA39C;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+#submitRegister {
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: auto;
+    background-color: #1BA39C;
+    color: #FFF;
+    margin-top: 34px;
+    margin-left: 80px;
+}
+#submitRegister:hover {
+    background-color: #2f4f4f !important;
+    transition: .5s;
+}
+div .register-content div.radio {
+    display: inline-flex;
+    position: absolute;
+    margin: 0;
+    height: 20px;
+    width: 295px;
+    align-items: center;
+}
+div .register-content div.radio input {
+    position: relative;
+    margin: 0;
+    margin-left: 15px;
+}
+div .register-content div.radio label {
+    padding: 0;
+    margin: 0;
+    margin-right: 25px;
+}
